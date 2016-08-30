@@ -3,7 +3,7 @@ s = gets()
 puts("You entered: #{s}")
 puts("Type of input: #{typeof(s)}")
 if s
-    length = s.size
+  length = s.size
 end
 puts("Type of length: #{typeof(length)}")
 puts("Number of characters you entered: #{length}")
