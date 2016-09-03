@@ -14,5 +14,5 @@ shards:
 
   spec-kemal:
     github: sdogruyol/spec-kemal
-    commit: 8c0d4268b9ae2b8e7aadfe290006c28060bb61c8
+    commit: fee1b2b7c006b685d61c8fcea63d130aa8ef1af6
 

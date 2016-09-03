@@ -7,8 +7,8 @@ dependencies:
     version: 0.15.1
 
   spec-kemal:
-    github: amitsaha/spec-kemal
-    branch: fix_0.19
+    github: sdogruyol/spec-kemal
+    branch: master
 
 authors:
   - Amit Saha <amitsaha.in@gmail.com>
