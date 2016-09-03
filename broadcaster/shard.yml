@@ -1,0 +1,12 @@
+name: broadcaster
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    version: 0.15.1
+
+authors:
+  - Amit Saha <amitsaha.in@gmail.com>
+
+license: MIT

@@ -1,0 +1,12 @@
+name: kemal
+version: 0.15.1
+
+dependencies:
+  radix:
+    github: luislavena/radix
+    version: 0.3.1
+  kilt:
+    github: jeromegn/kilt
+    version: 0.3.3
+author:
+  - Serdar Dogruyol <dogruyolserdar@gmail.com>
