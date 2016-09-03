@@ -1,10 +1,23 @@
-# Example of defining a method
+# Example of defining method including overloaded methods
+
 def power(number)
-    number**2
+    number**1
 end
 
-puts("Enter a number to square: ")
+def power(number, p)
+    number ** p
+end
+
+print("Enter a number to square: ")
 number = gets()
+print("Enter the power to raise it to: ")
+p = gets()
 if number
-    puts("Power of #{number} is #{power(number.to_f)}")
+  if p
+    p = p.to_i
+    result = power(number.to_f, p)
+  else
+    result = power(number.to_f)
+  end
+  puts("\nResult: #{result}")
 end
