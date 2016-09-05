@@ -1,14 +1,14 @@
 # Demo of blocks where the block is called with an argument
 
-def transform
+def transform_me
   yield "HelloWorld"
 end
 
 #  Call the above method passing this block 
-transform do |msg|
+transform_me do |msg|
   puts msg.upcase
 end
 
-transform do |msg|
+transform_me do |msg|
   puts msg.underscore
 end
