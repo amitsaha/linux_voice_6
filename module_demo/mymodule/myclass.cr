@@ -1,5 +1,5 @@
 class MYMODULE::Myclass
-  def new
+  def initialize
     puts("Initializing MYMODULE::Myclass")
   end
 end
