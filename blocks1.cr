@@ -1,13 +1,14 @@
-def show
-  # yield calls the block with arguments, if any
-  yield "Hello"
-  yield "World"
+# Demo of blocks where the block is called with an argument
+
+def transform
+  yield "HelloWorld"
 end
 
 #  Call the above method passing this block 
-show do |msg|
-  puts "Recieved: #{msg}"
+transform do |msg|
+  puts msg.upcase
 end
 
-# Alternative syntax
-show { |msg| puts "Recieved: #{msg}" }
+transform do |msg|
+  puts msg.underscore
+end

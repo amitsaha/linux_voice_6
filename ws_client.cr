@@ -1,5 +1,11 @@
 require "http"
-ws = HTTP::WebSocket.new(URI.parse("ws://localhost:3000/socket"))
+
+if ARGV.size == 1
+  server = ARGV[0]
+else
+  server = "ws://localhost:3000/socket"
+end
+ws = HTTP::WebSocket.new(URI.parse(server))
 # This fiber will run concurrently waiting for a line of input
 # and then writing to the socket
 spawn do
