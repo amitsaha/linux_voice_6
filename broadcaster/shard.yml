@@ -6,6 +6,10 @@ dependencies:
     github: sdogruyol/kemal
     version: 0.15.1
 
+  spec-kemal:
+    github: amitsaha/spec-kemal
+    branch: fix_0.19
+
 authors:
   - Amit Saha <amitsaha.in@gmail.com>
 

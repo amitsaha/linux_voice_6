@@ -12,3 +12,7 @@ shards:
     github: luislavena/radix
     version: 0.3.1
 
+  spec-kemal:
+    github: sdogruyol/spec-kemal
+    commit: 8c0d4268b9ae2b8e7aadfe290006c28060bb61c8
+
