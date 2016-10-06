@@ -3,7 +3,7 @@
 Here you will find the source code discussed in the article in Linux Voice, Issue 32. 
 
 
-### Resources
+### Crystal language Resources
 
 - Crystal Literals: https://crystal-lang.org/docs/syntax_and_semantics/literals.html
 - Program in Crystal: https://crystal-lang.org/docs/syntax_and_semantics/the_program.html
@@ -15,3 +15,9 @@ Here you will find the source code discussed in the article in Linux Voice, Issu
 - Concurrency in Crystal: https://crystal-lang.org/docs/guides/concurrency.html
 - Requiring files: https://crystal-lang.org/docs/syntax_and_semantics/requiring_files.html
 - Union types: https://crystal-lang.org/docs/syntax_and_semantics/union_types.html
+
+
+### Kemal
+
+- [Kemal Homepage](http://kemalcr.com/)
+- [spec-kemal](https://github.com/sdogruyol/spec-kemal)
